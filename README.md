@@ -2,7 +2,7 @@
 
 ## General
 
-This program xxxx
+Tree Builder is a small app that scans your folders recursively to create a visual representation in an Excel file.
 
 ## Platform Compatibility
 
@@ -20,31 +20,6 @@ The following tools are required:
 |---------------|----------------|--------------|
 | Python        | 3.10.2          |              |
 
-## Development Environment Setup and Instructions
-
-1. Install Python
-
-2. Ensure pip is up to date: py -3.10 -m pip install -U pip
-
-3. Ensure the following PATH variables are set
-    * C:\Users\XXX\AppData\Local\Programs\Python\PythonXXX\Scripts
-    * C:\Users\XXX\AppData\Local\Programs\Python\PythonXXX
-
-4. Run setup.bat to install and setup virtual environment. Do this every time you begin work.
-
-5. Build and install local libraries in the lib folder as required. Follow the respective README.md file install instructions for the package.
-
-6. Run any of the following commands in cmd from the project root directory:
-
-    * build - build the project into an executable
-    * clean - clean build directory
-    * run - run the code on the host pc
-    * lint - run lint checking
-    * generate-doc - generate documentation
-
-7. To update the list of packages saved in requirements.txt, while venv is activated, from the root folder, run: pip list --format=freeze > requirements.txt
-
-8. To deactivate the venv, run: deactivate
 
 ## Implementation Description
 
